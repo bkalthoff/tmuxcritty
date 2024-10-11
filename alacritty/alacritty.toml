@@ -1,0 +1,43 @@
+[[keyboard.bindings]]
+chars = "\u001B[69;6u"
+key = "E"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[79;6u"
+key = "O"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[87;6u"
+key = "W"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[75;6u"
+key = "K"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[104;3u"
+key = "H"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B[106;3u"
+key = "J"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B[107;3u"
+key = "K"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B[108;3u"
+key = "L"
+mods = "Alt"
+
+[shell]
+args = ["-2", "new-session"]
+program = "/usr/bin/tmux"
